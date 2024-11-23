@@ -54,7 +54,7 @@ return {
 			sections = {
 				lualine_a = { mode },
 				lualine_b = { "branch" },
-				lualine_c = { filename },
+				lualine_c = { "buffers" },
 				lualine_x = {
 					diagnostics,
 					diff,
